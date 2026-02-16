@@ -33,7 +33,6 @@ function imageTemplate(image) {
         />
       </li>`;
 }
-
 function imagesTemplate(array) {
   return array.map(imageTemplate).join("\n");
 }
